@@ -1,0 +1,27 @@
+
+.navber{
+    width: 60%;
+    margin : auto ;
+    background-image: linear-gradient(#A179FE,#6B4AEE);
+    padding: 10px 15px;
+    border-radius: 30px;
+    box-shadow: -2px 3px 23px #6b4aeed6;
+    position: sticky;
+    top: -35px;
+}
+
+.navber {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+@media (max-width: 518px) {
+    .navber{
+        width: 90%;
+       
+    }
+}

@@ -1,0 +1,72 @@
+.userCard{
+    width: 70%;
+    margin: auto;
+    background-color: #ede6f8;
+    padding : 15px;
+    text-align: center;
+    border-radius: 10px;
+     color: #241E36;
+     box-shadow: 10px 10px 15px white,
+        -10px -10px 15px white;
+        margin-bottom: 6rem;
+
+}
+.userCard img{
+    width: 150px;
+    border-radius: 50%;
+    margin-top: -80px;
+}
+
+.user{
+    margin-top: 100px;
+}
+
+button {
+    padding: 10px 30px;
+    font-size: 1rem;
+    background-color:#6b4aeed6;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    font-weight: 600;
+    border-radius : 5px;
+    cursor: pointer;
+    transition:all .3s ease;
+}
+button:active{
+    transform: scale(.7);
+}
+h2 {
+    color: #241E36;
+    margin-top: 10px;
+}
+h3{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+h3 span{
+   color: #6b4aeed6;
+   font-size: 1.4rem;
+   font-weight: 700;
+}
+
+
+
+@media (max-width: 518px) {
+    .userCard{
+        width: 95%;
+        padding : 10px;
+    }
+    h2 {
+        font-size: 1.1rem;
+    }
+    h3{
+
+        font-size: 1rem;
+    }
+    h3 span{
+      
+       font-size: 1rem;
+       
+    }
+}
